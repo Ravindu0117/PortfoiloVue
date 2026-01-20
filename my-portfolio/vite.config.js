@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/'
   resolve: {
     alias: {
       // This tells Vite that @ starts at the /src folder
