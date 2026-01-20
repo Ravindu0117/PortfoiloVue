@@ -6,6 +6,7 @@ import Projects from '../views/Projects.vue'
 import Contact from '../views/Contact.vue'
 
 const routes = [
+  {path: '/', redirect: '/home',},
   { path: '/home', component: Home },
   { path: '/about', component: About },
   { path: '/projects', component: Projects },
